@@ -20,7 +20,6 @@ text.forEach((line: string) => {
             return currentPath.includes(directory.name);
         });
 
-
         const sizeString = line.split( ' ')[0];
         if(sizeString != 'dir'){
             const size = Number.parseInt(sizeString);
