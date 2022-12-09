@@ -1,4 +1,4 @@
-import {Directory} from "./models/folders-model";
+import {Directory} from "./models/07.model";
 
 let fs = require('fs');
 let text: any[] = fs.readFileSync('./07.txt').toString().split('\r\n');
